@@ -1,0 +1,34 @@
+$color1: #faa;
+$color2: rgb(67, 33, 189);
+$display: flex;
+$space1: space-evenly;
+$color3: black;
+$fond1: rgba(0, 200, 255, 0.607);
+$taillefond1: 33.3%;
+$place1: center;
+$place2: left 
+
+.test {
+    background-color: $color1;
+    color: $color2;
+    display: $display;
+    justify-content: $space1;
+}
+
+div.sum1 {
+    color: $color3;
+}
+
+.fondtitre {
+    background-color: $fond1;
+    width: $taillefond1;
+    text-align: $place1;
+}
+
+.conteneur {
+    background-color: $color1;
+}
+
+div.contenu {
+    text-align: $place2;
+}
